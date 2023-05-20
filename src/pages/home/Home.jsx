@@ -1,3 +1,4 @@
+import EmailList from '../../components/emailList/EmailList'
 import Featured from '../../components/featured/Featured'
 import FeaturedProperties from '../../components/featuredProperties/FeaturedProperties'
 import Header from '../../components/header/Header'
@@ -18,6 +19,7 @@ const Home = () => {
                 <PropertyList/>
                 <h1 className="homeTitle">Home guests love</h1>
                 <FeaturedProperties/>
+                <EmailList/>
             </div>
         </div>
     )
